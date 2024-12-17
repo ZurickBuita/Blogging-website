@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Blog</title>
+
+    <!------------------Google fonts link---------------------->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!---------------Css Style link ------------------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+
+    <!-- aos animation css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="goes-up"></div>
+    <!------------- Navigation ---------------->
+    <nav class="nav">
+        <div class="nav-menu">
+            <div class="nav-brand">News Blog</div>
+            <ul class="nav-items">
+                <li class="nav-links">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-links">
+                    <a href="info.html">About</a>
+                </li>
+                <li class="nav-links">
+                    <a href="all-news.html">All News</a>
+                </li>
+                <li class="nav-links">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-search"> 
+                <div class="search-container">
+                    <input type="text" name="search" id="search" placeholder="Search Blog">
+                    <span class="material-icons"> search </span> 
+                </div>
+            </div>
+            <div class="nav-icon" id="nav-icon">
+                <span class="material-icons"> menu </span>
+            </div>
+
+            <div class="nav-icon-dropdown" id="nav-icon-dropdown">
+                <div class="nav-menu">
+                    <div class="nav-search"> 
+                        <div class="search-container">
+                            <input type="text" name="search" id="search" placeholder="Search Blog">
+                            <span class="material-icons"> search </span> 
+                        </div>
+                    </div>
+                    <ul class="nav-items">
+                        <li class="nav-links">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="info.html">About</a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="">All News</a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+    <!-------x-------navigation---------x------>
+    <!-------------Main Site Section ------------------>
+
+        <section class="blog-feed">
+
+            <div class="blog-main-content">
+                <div class="blog-feed-col blog-feed-col1">
+                    <div class="blog-row blog-row1">
+                        <img src="./assets/sports1.jpg" loading="lazy" decoding="async">
+                    </div>
+                    <div class="blog-row blog-row2">
+                        <h1 class="blog-title">NCAA 97: Mapua bucks San Sebastian fightback, keeps pace with SBU, CSJL</h1>
+                        <p class="history"> <span class="material-icons">history</span><span>&nbsp;&nbsp;</span><span>April 05, 2022</span> </p>
+                        <p class="blog-text">Mapua University averted a meltdown, fending off San Sebastian College-Recoletos, 65-59, to take its third straight win in the NCAA Season 97 seniors basketball tournament, Tuesday at La Salle Greenhills’ St. Benilde Gym in Mandaluyong City.</p>
+                        <p class="blog-text">After trailing by as much as 19 with three minutes left in the third period, the Golden Stags took it to the Cardinals with a huge 5-0 run at the start of the final quarter before JM Calma and Ichie Altamirano cut it to a four-point game, 55-59, with 2:07 left in the game.</p>
+                        <p class="blog-text">That turned out to be San Sebastian’s last charge as Mapua found their hero in the next play.</p>
+                        <p class="blog-text">Paolo Hernandez, who had been struggling in the game, was at the right place at the right time to get that Brian Lacap miss. The 6’2″ shooter then drilled a triple with 1:47 left in the game to extend the lead, 62-55.</p>
+                        <p class="blog-text">The Mapua had to seal the deal on the defensive side as Warren Bonifacio intercepted a pass from Altamirano, and Hernandez made the insurance free throws.</p>
+                        <p class="blog-text">Bonifacio finished the game with a double-double of 16 markers and 14 rebounds. He also grabbed two assists and one block along with that game-winning steal.</p>
+                        <p class="blog-text">Brian Lacap chipped in 14 markers, three rebounds, three assists, and one steal. while Hernandez ended with 12 points despite the 30-percent shooting clip to go with eight boards, four assists, two steals, and a block.</p>
+                        <p class="blog-text">Head coach Randy Alcantara admitted, “Sa totoo lang hindi ko rin naman [ine-expect] na mag-start kami ng 3-0, pero yun nga sa sipag ng mga players, sumusunod sila sa gusto mong ipagawa sa kanila.</p>
+                        <p class="blog-text">“Yung tapang ng dibdib at lakas ng loob nila sa end game. Buti na lang nakapag-execute kami ng gusto naming ipagawa,” he continued.</p>
+                        <p class="blog-text">Sen Sebastian saw Calma put up 10 points, adding nine boards and one steal. Altamirano likewise ended with 10 markers, two rebounds, and one steal.</p>
+                        <p class="blog-text">The Cardinals zoomed to a share of the lead along with Colegio de San Juan de Letran and San Beda University. Meanwhile, the Stags dropped to 1-2.</p>
+                        <p class="blog-text">Mapua will go for their fourth straight against fellow undefeated Colegio de San Juan de Letran (3-0) on April 8 at 12 NN., while San Sebastian will battle San Beda University (3-0) later in the day at 3 p.m.</p>
+                    </div>
+                    <div class="blog-row blog-row3">
+                        <div> 
+                            <span class="material-icons"> account_circle </span><span>&nbsp;&nbsp;Aeron Paul Valderrama</span>
+                        </div>
+                        <div class="with-tooltip">
+                            <span class="material-icons"> comment </span><span class="blog-row3-link" id="comment-toggle">&nbsp;(0) <span class="tool-tip">Comment</span></span>
+                            <span>&nbsp;&nbsp;</span>
+                            
+                            <img src="./assets/share-icon.png" loading="lazy" decoding="async"><span class="blog-row3-link">&nbsp;(0)<span class="tool-tip">Share</span></span>
+                        </div>
+                    </div>
+                    <div class="comment-section" id="comment-section">
+                        <h1 class="comment-header"> Comments </h1>
+                        <div>
+                            <div>
+                                <span class="material-icons"> account_circle </span>
+                                <input type="text" name="comment" id="comment" placeholder="Write a comment...">
+                            </div>
+                            <span class="material-icons"> send </span>
+                        </div>
+                        <h3 class="comment-header">No Comments </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-posts">
+                <h1>Recent Posts</h1>
+                <div>
+                    <div class="blog-feed-col blog-feed-col1" data-aos="fade-right" data-aos-delay="100">
+                        <div class="blog-row blog-row1">
+                            <img src="./assets/health2.jpg" loading="lazy" decoding="async">
+                        </div>
+                        <div class="blog-row blog-row2">
+                            <h1>UK Covid cases at highest level as immunity wanes, study finds</h1>
+                            <p class="history"> <span class="material-icons">history</span><span>&nbsp;&nbsp;</span><span>Apr 6, 2022</span> </p>
+                            <p>The latest results are the 19th round of the React-1 study and will be the last as the program comes to an end at the same time the UK cuts back on free coronavirus tests.</p>
+                            <button><a href="blog12.html" class="btn">Read More <span class="material-icons"> east </span></a></button>
+                        </div>
+                        <div class="blog-row blog-row3">
+                            <div> 
+                                <span class="material-icons"> account_circle </span><span>&nbsp;&nbsp;Hindustan Times </span>
+                            </div>
+                            <div class="with-tooltip">
+                                <span class="material-icons"> comment </span><span class="blog-row3-link">&nbsp;(0) <span class="tool-tip">Comment</span></span>
+                                <span>&nbsp;&nbsp;</span>
+                                
+                                <img src="./assets/share-icon.png" loading="lazy" decoding="async"><span class="blog-row3-link">&nbsp;(0)<span class="tool-tip">Share</span></span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="blog-feed-col blog-feed-col1" data-aos="fade-left" data-aos-delay="100">
+                        <div class="blog-row blog-row1">
+                            <img src="./assets/health1.jpg" loading="lazy" decoding="async">
+                        </div>
+                        <div class="blog-row blog-row2">
+                            <h1>Viruses that could save millions of lives</h1>
+                            <p class="history"> <span class="material-icons">history</span><span>&nbsp;&nbsp;</span><span>Apr 4, 2022</span> </p>
+                            <p>TBILISI, Georgia—It may seem strange after a pandemic that has killed millions and turned the world upside down, but viruses could save just as many lives.</p>
+                            <button><a href="blog11.html" class="btn">Read More <span class="material-icons"> east </span></a></button>
+                        </div>
+                        <div class="blog-row blog-row3">
+                            <div> 
+                                <span class="material-icons"> account_circle </span><span>&nbsp;&nbsp;Agence France-Presse</span>
+                            </div>
+                            <div class="with-tooltip">
+                                <span class="material-icons"> comment </span><span class="blog-row3-link">&nbsp;(0) <span class="tool-tip">Comment</span></span>
+                                <span>&nbsp;&nbsp;</span>
+                                
+                                <img src="./assets/share-icon.png" loading="lazy" decoding="async"><span class="blog-row3-link">&nbsp;(0)<span class="tool-tip">Share</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    <!-------x------Main Site Section --------x---------->
+    
+    <!-- ------------- Footer --------------------- -->
+
+    <footer>
+        <div class="footer-row footer-row1">
+            <div class="footer-col footer-col1">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form>
+                    <input type="email" name="email-subsribe" id="email-subsribe" placeholder="Enter your Email here*">
+                    <button class="btn">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-col footer-col2">
+                <h3> List Links </h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">All News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-col3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><img src="./assets/fb.jpg" loading="lazy" decoding="async"></li>
+                    <li><img src="./assets/twitter.jpg" loading="lazy" decoding="async"></li>
+                    <li><img src="./assets/youtube.jpg" loading="lazy" decoding="async"></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-col4">
+                <a href="#goes-up">
+                    <span class="material-icons"> arrow_upward </span>
+                </a>
+            </div>
+        </div>
+        <div class="footer-row footer-row2">
+            Copyright © 2022 All Rights Reserved 
+        </div>
+    </footer>
+    <!-- -----x-------- Footer ----------x----------- -->
+    <!-- --------- JavaScript ---------------------- -->
+    <script src="script.js"></script>
+        <!-- aos animation javascript -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- aos animation javascript -->
+        <script>
+            AOS.init( { 
+                offset: 100,
+                duration: 1000, 
+                }
+            );
+    
+            document.querySelectorAll('img')
+                .forEach((img) =>
+                    img.addEventListener('load', () =>
+                    AOS.refresh()
+                )
+            );
+        </script>
+</body>
+</html>

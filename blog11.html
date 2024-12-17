@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Blog</title>
+
+    <!------------------Google fonts link---------------------->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!---------------Css Style link ------------------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+    <!-- aos animation css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="goes-up"></div>
+    <!------------- Navigation ---------------->
+    <nav class="nav">
+        <div class="nav-menu">
+            <div class="nav-brand">News Blog</div>
+            <ul class="nav-items">
+                <li class="nav-links">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-links">
+                    <a href="info.html">About</a>
+                </li>
+                <li class="nav-links">
+                    <a href="all-news.html">All News</a>
+                </li>
+                <li class="nav-links">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-search"> 
+                <div class="search-container">
+                    <input type="text" name="search" id="search" placeholder="Search Blog">
+                    <span class="material-icons"> search </span> 
+                </div>
+            </div>
+            <div class="nav-icon" id="nav-icon">
+                <span class="material-icons"> menu </span>
+            </div>
+
+            <div class="nav-icon-dropdown" id="nav-icon-dropdown">
+                <div class="nav-menu">
+                    <div class="nav-search"> 
+                        <div class="search-container">
+                            <input type="text" name="search" id="search" placeholder="Search Blog">
+                            <span class="material-icons"> search </span> 
+                        </div>
+                    </div>
+                    <ul class="nav-items">
+                        <li class="nav-links">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="info.html">About</a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="all-news.html">All News</a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+    <!-------x-------navigation---------x------>
+    <!-------------Main Site Section ------------------>
+
+        <section class="blog-feed">
+
+            <div class="blog-main-content">
+                <div class="blog-feed-col blog-feed-col1">
+                    <div class="blog-row blog-row1">
+                        <img src="./assets/health1.jpg" loading="lazy" decoding="async">
+                    </div>
+                    <div class="blog-row blog-row2">
+                        <h1>Viruses that could save millions of lives</h1>
+                        <p class="history"> <span class="material-icons">history</span><span>&nbsp;&nbsp;</span><span>Apr 4, 2022</span> </p>
+                        <p class="blog-text"> TBILISI, Georgia—It may seem strange after a pandemic that has killed millions and turned the world upside down, but viruses could save just as many lives.</p>
+                        <p class="blog-text">In a petri dish in a laboratory in the Georgian capital Tbilisi, a battle is going on between antibiotic resistant bacteria and “friendly” viruses.</p>
+                        <p class="blog-text"> This small nation in the Caucasus has pioneered research on a groundbreaking way to tackle the looming nightmare of bacteria becoming resistant to the antibiotics on which the world depends.</p>
+                        <p class="blog-text">Long overlooked in the West, bacteriophages or bacteria-eating viruses are now being used on some of the most difficult medical cases, including a Belgian woman who developed a life-threatening infection after being injured in the 2016 Brussels airport bombing.</p>
+                        <p class="blog-text"> After two years of unsuccessful antibiotic treatment, bacteriophages sent from Tbilisi cured her infection in three months.</p>
+                        <p class="blog-text"> “We use those phages that kill harmful bacteria” to cure patients when antibiotics fail, Mzia Kutateladze of the Eliava Institute of Bacteriophages told AFP.</p>
+                        <p class="blog-text"> Even a banal infection can “kill a patient because the pathogen has developed resistance to antibiotics,” Kutateladze said.</p>
+                        <p class="blog-text"> In such cases, phagotherapy “is one of the best alternatives”, she added.</p>
+                        <p class="blog-text"> Phages have been known about for a century, but were largely forgotten and dismissed after antibiotics revolutionised medicine in the 1930s.</p>
+                    </div>
+                    
+                    <div class="blog-row blog-row3">
+                        <div> 
+                            <span class="material-icons"> account_circle </span><span>&nbsp;&nbsp; Agence France-Presse</span>
+                        </div>
+                        <div class="with-tooltip">
+                            <span class="material-icons"> comment </span><span class="blog-row3-link" id="comment-toggle">&nbsp;(0) <span class="tool-tip">Comment</span></span>
+                            <span>&nbsp;&nbsp;</span>
+                            
+                            <img src="./assets/share-icon.png" loading="lazy" decoding="async"><span class="blog-row3-link">&nbsp;(0)<span class="tool-tip">Share</span></span>
+                        </div>
+                    </div>
+                    <div class="comment-section" id="comment-section">
+                        <h1 class="comment-header"> Comments </h1>
+                        <div>
+                            <div>
+                                <span class="material-icons"> account_circle </span>
+                                <input type="text" name="comment" id="comment" placeholder="Write a comment...">
+                            </div>
+                            <span class="material-icons"> send </span>
+                        </div>
+                        <h3 class="comment-header">No Comments </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-posts">
+                <h1>Recent Posts</h1>
+                <div>
+                    <div class="blog-feed-col blog-feed-col1" data-aos="fade-right" data-aos-delay="100">
+                        <div class="blog-row blog-row1">
+                            <img src="./assets/sports3.jpg" loading="lazy" decoding="async">
+                        </div>
+                        <div class="blog-row blog-row2">
+                            <h1>So eyes a shot at classical crown</h1>
+                            <p class="history"> <span class="material-icons">history</span><span>&nbsp;&nbsp;</span><span>Apr 6, 2022</span> </p>
+                            <p>PHILIPPINE-BORN American Wesley So vowed to make a serious bid in the next World Chess Championship cycle with hopes of earning a shot at the world classical crown.</p>
+                            <button><a href="blog6.html" class="btn">Read More <span class="material-icons"> east </span></a></button>
+                        </div>
+                        <div class="blog-row blog-row3">
+                            <div> 
+                                <span class="material-icons"> account_circle </span><span>&nbsp;&nbsp;BusinessWorld Online</span>
+                            </div>
+                            <div class="with-tooltip">
+                                <span class="material-icons"> comment </span><span class="blog-row3-link">&nbsp;(0) <span class="tool-tip">Comment</span></span>
+                                <span>&nbsp;&nbsp;</span>
+                                
+                                <img src="./assets/share-icon.png" loading="lazy" decoding="async"><span class="blog-row3-link">&nbsp;(0)<span class="tool-tip">Share</span></span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="blog-feed-col blog-feed-col1" data-aos="fade-left" data-aos-delay="100">
+                        <div class="blog-row blog-row1">
+                            <img src="./assets/science.jpg" loading="lazy" decoding="async">
+                        </div>
+                        <div class="blog-row blog-row2">
+                            <h1>When to See April's Full Pink Moon at Peak Brilliance</h1>
+                            <p class="history"> <span class="material-icons">history</span><span>&nbsp;&nbsp;</span><span>Apr 5, 2022</span> </p>
+                            <p>April’s full Moon rises on Saturday, April 16, and reaches peak illumination at 2:57 p.m. ET. Lifehack: Enjoy the Pink Moon’s peak illumination while listening to Nick Drake’s seminal, bittersweet 1972 album Pink Moon—there are way worse things you could be doing at 3 a.m. in the springtime.</p>
+                            <button><a href="blog8.html" class="btn">Read More <span class="material-icons"> east </span></a></button>
+                        </div>
+                        <div class="blog-row blog-row3">
+                            <div> 
+                                <span class="material-icons"> account_circle </span><span>&nbsp;&nbsp;Stephen Johnson</span>
+                            </div>
+                            <div class="with-tooltip">
+                                <span class="material-icons"> comment </span><span class="blog-row3-link">&nbsp;(0) <span class="tool-tip">Comment</span></span>
+                                <span>&nbsp;&nbsp;</span>
+                                
+                                <img src="./assets/share-icon.png" loading="lazy" decoding="async"><span class="blog-row3-link">&nbsp;(0)<span class="tool-tip">Share</span></span>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+       </div>
+    <!-------x------Main Site Section --------x---------->
+    
+    <!-- ------------- Footer --------------------- -->
+
+    <footer>
+        <div class="footer-row footer-row1">
+            <div class="footer-col footer-col1">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form>
+                    <input type="email" name="email-subsribe" id="email-subsribe" placeholder="Enter your Email here*">
+                    <button class="btn">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-col footer-col2">
+                <h3> List Links </h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="all-news.html">All News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-col3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><img src="./assets/fb.jpg" loading="lazy" decoding="async"></li>
+                    <li><img src="./assets/twitter.jpg" loading="lazy" decoding="async"></li>
+                    <li><img src="./assets/youtube.jpg" loading="lazy" decoding="async"></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-col4">
+                <a href="#goes-up">
+                    <span class="material-icons"> arrow_upward </span>
+                </a>
+            </div>
+        </div>
+        <div class="footer-row footer-row2">
+            Copyright © 2022 All Rights Reserved 
+        </div>
+    </footer>
+    <!-- -----x-------- Footer ----------x----------- -->
+    <!-- --------- JavaScript ---------------------- -->
+    <script src="script.js"></script>
+
+     <!-- aos animation javascript -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <!-- aos animation javascript -->
+     <script>
+         AOS.init( { 
+             offset: 100,
+             duration: 1000, 
+             }
+         );
+ 
+         document.querySelectorAll('img')
+             .forEach((img) =>
+                 img.addEventListener('load', () =>
+                 AOS.refresh()
+             )
+         );
+     </script>
+</body>
+</html>

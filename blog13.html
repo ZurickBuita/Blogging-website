@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Blog</title>
+
+    <!------------------Google fonts link---------------------->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!---------------Css Style link ------------------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+    <!-- aos animation css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="goes-up"></div>
+    <!------------- Navigation ---------------->
+    <nav class="nav">
+        <div class="nav-menu">
+            <div class="nav-brand">News Blog</div>
+            <ul class="nav-items">
+                <li class="nav-links">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-links">
+                    <a href="info.html">About</a>
+                </li>
+                <li class="nav-links">
+                    <a href="all-news.html">All News</a>
+                </li>
+                <li class="nav-links">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-search"> 
+                <div class="search-container">
+                    <input type="text" name="search" id="search" placeholder="Search Blog">
+                    <span class="material-icons"> search </span> 
+                </div>
+            </div>
+            <div class="nav-icon" id="nav-icon">
+                <span class="material-icons"> menu </span>
+            </div>
+
+            <div class="nav-icon-dropdown" id="nav-icon-dropdown">
+                <div class="nav-menu">
+                    <div class="nav-search"> 
+                        <div class="search-container">
+                            <input type="text" name="search" id="search" placeholder="Search Blog">
+                            <span class="material-icons"> search </span> 
+                        </div>
+                    </div>
+                    <ul class="nav-items">
+                        <li class="nav-links">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="info.html">About</a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="">All News</a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+    <!-------x-------navigation---------x------>
+    <!-------------Main Site Section ------------------>
+
+        <section class="blog-feed">
+
+            <div class="blog-main-content">
+                <div class="blog-feed-col blog-feed-col1">
+                    <div class="blog-row blog-row1">
+                        <img src="./assets/health3.jpg" loading="lazy" decoding="async">
+                    </div>
+                    <div class="blog-row blog-row2">
+                        <h1>New study finds community acquired drug-resistant UTIs to be more deadly</h1>
+                        <p class="history"> <span class="material-icons">history</span><span>&nbsp;&nbsp;</span><span>Apr 6, 2022</span> </p>
+                        <p class="blog-text">A new study led by Australia’s national science agency, CSIRO, has found the spread of drug-resistant bacteria in the community is increasing the risk of death for common infections such as urinary tract infections (UTIs), which affect around one in two women and one in 20 men in their lifetime. </p>
+                        <p class="blog-text">Antimicrobial resistance (AMR) occurs when bacteria and other microbes become resistant to the drugs designed to kill them, generally through misuse or overuse of the drugs.</p>
+                        <p class="blog-text"> There are two ways resistant bacteria can be passed between humans: hospital transmission and community transmission. Hospital acquired resistance is well researched, but this study is one of the few that looks at the burden of community transmission. </p>
+                        <p class="blog-text"> The study, a collaboration between CSIRO, QUT and the University of Queensland, analysed data from 21,268 patients across 134 Queensland hospitals who acquired their infections in the community. </p>
+                        <p class="blog-text"> It found patients were almost two and a half (2.43) times more likely to die from community acquired drug-resistant UTIs caused by Pseudomonas aeruginosa and more than three (3.28) times more likely to die from community acquired drug-resistant blood stream infections caused by Enterobacteriaceae than those with drug-sensitive infections.  </p>
+                        <p class="blog-text"> The study’s findings will provide further guidance for managing AMR in the community, such as developing AMR stewardship programs that draw on data from the population being treated.  </p>
+                        <p class="blog-text"> CEO of CSIRO’s Australian e-Health Research Centre, Dr David Hansen, said the magnitude of the AMR problem needs to be understood to mitigate it.  </p>
+                        <p class="blog-text"> “Tracking community resistance is difficult because it involves not just one pathogen or disease but multiple strains of bacteria,” Dr Hansen said.“</p>
+                        <p class="blog-text"> “Until now we haven’t been using the best data to support decision making in our fight against AMR. Data on community acquired resistance is a significant missing piece of the puzzle.  </p>
+                        <p class="blog-text"> “Digital health has an important role in using big data sets to describe patterns of disease and drive important population health outcomes.”</p>
+                        <p class="blog-text"> CSIRO is conducting further research to understand the clinical implications of AMR, its health and economic burden, and improving surveillance of AMR in blind spots like rural and remote communities. </p>
+                        <p class="blog-text"> The paper, ‘The increased length of hospital stay and mortality associated with community-associated infections in Australia’, was published in Open Forum Infectious Diseases in March 2022.  </p>
+                    </div>
+                    
+                    <div class="blog-row blog-row3">
+                        <div> 
+                            <span class="material-icons"> account_circle </span><span>&nbsp;&nbsp;Reviewed by Danielle Ellis, B.Sc. </span>
+                        </div>
+                        <div class="with-tooltip">
+                            <span class="material-icons"> comment </span><span class="blog-row3-link" id="comment-toggle">&nbsp;(0) <span class="tool-tip">Comment</span></span>
+                            <span>&nbsp;&nbsp;</span>
+                            
+                            <img src="./assets/share-icon.png" loading="lazy" decoding="async"><span class="blog-row3-link">&nbsp;(0)<span class="tool-tip">Share</span></span>
+                        </div>
+                    </div>
+                    <div class="comment-section" id="comment-section">
+                        <h1 class="comment-header"> Comments </h1>
+                        <div>
+                            <div>
+                                <span class="material-icons"> account_circle </span>
+                                <input type="text" name="comment" id="comment" placeholder="Write a comment...">
+                            </div>
+                            <span class="material-icons"> send </span>
+                        </div>
+                        <h3 class="comment-header">No Comments </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-posts">
+                <h1>Recent Posts</h1>
+                <div>
+                    <div class="blog-feed-col blog-feed-col1" data-aos="fade-right" data-aos-delay="100">
+                        <div class="blog-row blog-row1">
+                            <img src="./assets/sports3.jpg" loading="lazy" decoding="async">
+                        </div>
+                        <div class="blog-row blog-row2">
+                            <h1>So eyes a shot at classical crown</h1>
+                            <p class="history"> <span class="material-icons">history</span><span>&nbsp;&nbsp;</span><span>Apr 6, 2022</span> </p>
+                            <p>PHILIPPINE-BORN American Wesley So vowed to make a serious bid in the next World Chess Championship cycle with hopes of earning a shot at the world classical crown.</p>
+                            <button><a href="blog6.html" class="btn">Read More <span class="material-icons"> east </span></a></button>
+                        </div>
+                        <div class="blog-row blog-row3">
+                            <div> 
+                                <span class="material-icons"> account_circle </span><span>&nbsp;&nbsp;BusinessWorld Online</span>
+                            </div>
+                            <div class="with-tooltip">
+                                <span class="material-icons"> comment </span><span class="blog-row3-link">&nbsp;(0) <span class="tool-tip">Comment</span></span>
+                                <span>&nbsp;&nbsp;</span>
+                                
+                                <img src="./assets/share-icon.png" loading="lazy" decoding="async"><span class="blog-row3-link">&nbsp;(0)<span class="tool-tip">Share</span></span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="blog-feed-col blog-feed-col1" data-aos="fade-left" data-aos-delay="100">
+                        <div class="blog-row blog-row1">
+                            <img src="./assets/science.jpg" loading="lazy" decoding="async">
+                        </div>
+                        <div class="blog-row blog-row2">
+                            <h1>When to See April's Full Pink Moon at Peak Brilliance</h1>
+                            <p class="history"> <span class="material-icons">history</span><span>&nbsp;&nbsp;</span><span>Apr 5, 2022</span> </p>
+                            <p>April’s full Moon rises on Saturday, April 16, and reaches peak illumination at 2:57 p.m. ET. Lifehack: Enjoy the Pink Moon’s peak illumination while listening to Nick Drake’s seminal, bittersweet 1972 album Pink Moon—there are way worse things you could be doing at 3 a.m. in the springtime.</p>
+                            <button><a href="blog8.html" class="btn">Read More <span class="material-icons"> east </span></a></button>
+                        </div>
+                        <div class="blog-row blog-row3">
+                            <div> 
+                                <span class="material-icons"> account_circle </span><span>&nbsp;&nbsp;By: Stephen Johnson</span>
+                            </div>
+                            <div class="with-tooltip">
+                                <span class="material-icons"> comment </span><span class="blog-row3-link">&nbsp;(0) <span class="tool-tip">Comment</span></span>
+                                <span>&nbsp;&nbsp;</span>
+                                
+                                <img src="./assets/share-icon.png" loading="lazy" decoding="async"><span class="blog-row3-link">&nbsp;(0)<span class="tool-tip">Share</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    <!-------x------Main Site Section --------x---------->
+    
+    <!-- ------------- Footer --------------------- -->
+
+    <footer>
+        <div class="footer-row footer-row1">
+            <div class="footer-col footer-col1">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form>
+                    <input type="email" name="email-subsribe" id="email-subsribe" placeholder="Enter your Email here*">
+                    <button class="btn">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-col footer-col2">
+                <h3> List Links </h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="all-news.html">All News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-col3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><img src="./assets/fb.jpg" loading="lazy" decoding="async"></li>
+                    <li><img src="./assets/twitter.jpg" loading="lazy" decoding="async"></li>
+                    <li><img src="./assets/youtube.jpg" loading="lazy" decoding="async"></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-col4">
+                <a href="#goes-up">
+                    <span class="material-icons"> arrow_upward </span>
+                </a>
+            </div>
+        </div>
+        <div class="footer-row footer-row2">
+            Copyright © 2022 All Rights Reserved 
+        </div>
+    </footer>
+    <!-- -----x-------- Footer ----------x----------- -->
+    <!-- --------- JavaScript ---------------------- -->
+    <script src="script.js"></script>
+
+
+</body>
+</html>

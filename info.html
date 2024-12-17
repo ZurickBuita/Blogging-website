@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <!------------------Google fonts link---------------------->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!---------------Css Style link ------------------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <!------------- Navigation ---------------->
+    <nav class="nav">
+        <div class="nav-menu">
+            <div class="nav-brand">News Blog</div>
+            <ul class="nav-items">
+                <li class="nav-links">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-links">
+                    <a href="info.html">About</a>
+                </li>
+                <li class="nav-links">
+                    <a href="all-news.html">All News</a>
+                </li>
+                <li class="nav-links">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-search"> 
+                <div class="search-container">
+                    <input type="text" name="search" id="search" placeholder="Search Blog">
+                    <span class="material-icons"> search </span> 
+                </div>
+            </div>
+            <div class="nav-icon" id="nav-icon">
+                <span class="material-icons"> menu </span>
+            </div>
+
+            <div class="nav-icon-dropdown" id="nav-icon-dropdown">
+                <div class="nav-menu">
+                    <div class="nav-search"> 
+                        <div class="search-container">
+                            <input type="text" name="search" id="search" placeholder="Search Blog">
+                            <span class="material-icons"> search </span> 
+                        </div>
+                    </div>
+                    <ul class="nav-items">
+                        <li class="nav-links">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="info.html">About</a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="all-news.html">All News</a>
+                        </li>
+                        <li class="nav-links">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+    <!-------x-------navigation---------x------>
+    <!-------------Main Site Section ------------------>
+    <section class="about" id="goes-up">
+        <div class="col col1">
+            <img src="./assets/about.jpg" loading="lazy" decoding="async">
+        </div>
+        <div class="col col2">
+            <h1 class="about-title">All The Info</h1>
+            <p class="about-text">I believe you must bring your whole self to the table if you want to thrive in today’s crazy world; your personality, your sense of humor, and most importantly, your heart. All of these elements brought me to start News Blog.</p>
+            <p class="about-text">Ever since I launched this project, the blog has been thriving and has quickly gained a loyal following. To see what I’ve been up to, browse my site, learn about my passions, and explore what excites and interests you as well.</p>
+        </div>
+    </section>
+    
+    <!-------x------Main Site Section --------x---------->
+
+    <!-- ------------- Footer --------------------- -->
+
+    <footer>
+        <div class="footer-row footer-row1">
+            <div class="footer-col footer-col1">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form>
+                    <input type="email" name="email-subsribe" id="email-subsribe" placeholder="Enter your Email here*">
+                    <button class="btn">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-col footer-col2">
+                <h3> List Links </h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="all-news.html">All News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-col3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><img src="./assets/fb.jpg" loading="lazy" decoding="async"></li>
+                    <li><img src="./assets/twitter.jpg" loading="lazy" decoding="async"></li>
+                    <li><img src="./assets/youtube.jpg" loading="lazy" decoding="async"></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-col4">
+                <a href="#goes-up">
+                    <span class="material-icons"> arrow_upward </span>
+                </a>
+            </div>
+        </div>
+        <div class="footer-row footer-row2">
+            Copyright © 2022 All Rights Reserved 
+        </div>
+    </footer>
+    <!-- -----x-------- Footer ----------x----------- -->
+    
+     <!-- --------- JavaScript ---------------------- -->
+     <script src="script.js"></script>
+</body>
+</html>
